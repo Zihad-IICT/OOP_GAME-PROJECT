@@ -9,7 +9,7 @@ public class ClickCircleGame extends JFrame {
     final int Board_Height=500;
     final int Board_Weight=500;
     private int highScore = 0;
-    public static int timeLeft = 30;
+    private int timeLeft = 30;
     private Timer gameTimer, moveTimer;
     private int circleX, circleY;
     public static final int circleSize = 50;
